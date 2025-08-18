@@ -48,7 +48,7 @@ docker run -d ^
 After a few seconds, the services will be up. You can verify with:
 
 ```bash
-docker exec -it hadoop-container bash -lc "jps"
+docker exec -it hadoop-container bash -lc "/usr/local/openjdk-11/bin/jps"
 ```
 
 Expected output includes: `NameNode`, `DataNode`, `SecondaryNameNode`, `ResourceManager`, `NodeManager`.
