@@ -61,4 +61,9 @@
   <value>localhost</value>
 </property>
 
+<property>
+  <name>dfs.permissions.enabled</name>
+  <value>false</value>
+</property>
+
 </configuration>
